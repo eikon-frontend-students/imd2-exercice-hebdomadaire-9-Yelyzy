@@ -20,6 +20,8 @@ body {
   height: 1000px;
   background: rgba(0, 0, 0, 0.1);
   flex-shrink: 0;
+  color: #000;
+  font-family: Roboto;
 }
 
 .inner {
@@ -27,11 +29,19 @@ body {
   width: 420px;
   padding: 30px;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 30px;
   flex-shrink: 0;
   border-radius: 5px;
   background: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25),
     0 9px 46px 8px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+p {
+  font-size: 14px;
 }
