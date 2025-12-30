@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1000px;
+  height: 100vh;
   background: rgba(0, 0, 0, 0.1);
   flex-shrink: 0;
   color: #000;
@@ -66,17 +66,16 @@ button {
   padding: 6px 12px;
   justify-content: center;
   align-items: center;
+  border: none;
 }
 
 .outline {
-  border: none;
   background: transparent;
   color: #000;
 }
 
 .solid {
   border-radius: 3px;
-  border: none;
   background: #1867c0;
   box-shadow: 2px 2px 2px -1px rgba(24, 103, 192, 0.25);
 }
